@@ -11,9 +11,9 @@ Console.Write("Введите второе число: ");
 int number2 = int.Parse(Console.ReadLine());
 if (number1 == (number2 * number2))
 {
- Console.Write($"Первое число {number1} является квадратом числа {number2}");   
+    Console.Write($"Первое число {number1} является квадратом числа {number2}");   
 }
 else
 {
-Console.Write($"Первое число {number1} Не является квадратом числа {number2}"); 
+    Console.Write($"Первое число {number1} Не является квадратом числа {number2}"); 
 }
